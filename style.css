@@ -141,3 +141,32 @@ button {
         text-align: center;
     }
 }
+
+
+/* Section three styling */
+
+.section-three {
+    background-color: #E5E7EB;
+    padding: 80px 200px;
+    padding-bottom: 80px;
+
+}
+
+.quote {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: justify;
+    color: #1F2937;
+}
+
+.quote p, .author p {
+    margin: 0px auto;
+}
+
+.author {
+    font-weight: bold;
+    font-size: 18px;
+    text-align: right;
+    margin-right: 10%
+}
