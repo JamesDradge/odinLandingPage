@@ -1,0 +1,30 @@
+body {
+    margin: 0px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+ul {
+    all: unset;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1F2937;
+    align-items: center;
+    padding: 10px 100px;
+}
+
+.logo {
+    font-size: 28px;
+    color: #F9FAF8;
+    font-weight: bold;
+    min-width: 150px;
+}
+
+.header-links {
+    display: flex;
+    gap: 30px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
