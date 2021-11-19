@@ -34,6 +34,11 @@ button {
     width: 70px;
 }
 
+button:hover {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4) 0 0);
+    cursor:pointer;
+}
+
 
 /* Header styling */
 
@@ -148,8 +153,6 @@ button {
 .section-three {
     background-color: #E5E7EB;
     padding: 80px 200px;
-    padding-bottom: 80px;
-
 }
 
 .quote {
@@ -174,5 +177,60 @@ button {
 @media only screen and (max-width: 1100px){
     .quote p {
         text-align: center;
+    }
+}
+
+
+/* Section four styling */
+
+.section-four {
+    padding: 80px 200px;
+}
+
+.modal-container {
+    background-color: #3882F6;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    padding: 50px 0px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 60%;
+}
+
+.modal-title {
+    font-size: 28px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin: 0;
+}
+
+.modal-text {
+    font-size: 18px;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.modal-container button {
+    border: white 2px solid;
+    width: auto;
+    padding: 15px 25px;
+}
+
+@media only screen and (max-width: 1100px){
+    .text-container p {
+        text-align: center;
+    }
+    .modal-container {
+        gap: 30px;
+    }
+    .text-container {
+        gap: 30px;
     }
 }
