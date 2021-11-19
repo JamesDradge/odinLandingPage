@@ -1,6 +1,12 @@
 body {
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.body-content {
+    flex: 1;
 }
 
 ul {
@@ -119,7 +125,7 @@ button:hover {
 .testimonials img {
     width: 200px;
     height: 200px;
-    border: rgb(66, 162, 241) 7px solid;
+    border: #3882F6 10px solid;
     border-radius: 5px;;
 }
 
@@ -194,7 +200,7 @@ button:hover {
     align-items: center;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 50px 0px;
+    padding: 50px 40px;
 }
 
 .text-container {
@@ -233,4 +239,18 @@ button:hover {
     .text-container {
         gap: 30px;
     }
+}
+
+
+/* footer styling */
+
+.footer {
+    background-color: #1F2937;
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.footer p {
+    color: #F9FAF8;
 }
